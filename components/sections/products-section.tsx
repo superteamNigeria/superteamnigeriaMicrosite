@@ -160,6 +160,7 @@ export const ProductsSection = () => {
                   <Link
                     href={product.link}
                     className="inline-flex items-center gap-1 text-sm font-medium tracking-tight text-emerald-400 transition-colors hover:text-emerald-300"
+                    target="_blank"
                   >
                     Read More
                     <svg
@@ -201,9 +202,10 @@ export const ProductsSection = () => {
                  </p>
                </div>
                <Link
-                 href="/products"
-                 className="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-500/90 px-6 py-2 text-base font-semibold text-black shadow-lg ring-emerald-500/10 ring-2 hover:bg-emerald-400 hover:text-white transition-all group-hover:scale-105 group-active:scale-95"
+                 href="https://product.superteamng.fun"
+                 className="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-500/90 px-6 py-2 text-base font-semibold text-black shadow-lg ring-emerald-500/10 ring-2 hover:bg-emerald-500 transition-all group-active:scale-95"
                  aria-label="View all products"
+                 target="_blank"
                >
                  View More
                  <svg
