@@ -110,7 +110,7 @@ export const Nav = () => {
                       aria-label={link.label}
                       href={link.href}
                       onClick={handleClick}
-                      className="rounded-lg px-3 py-1 text-white text-md tracking-tighter transition-colors hover:bg-white/15"
+                      className="rounded-lg px-3 py-1 text-white text-md tracking-tighter transition-colors hover:text-emerald-400"
                     >
                       {link.label}
                     </Link>

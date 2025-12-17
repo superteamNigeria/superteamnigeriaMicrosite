@@ -13,18 +13,18 @@ export const HeroSection = () => {
       <Spotlight />
       {/* Background text */}
       <div
-        className="-right-24 pointer-events-none absolute -bottom-8 origin-bottom-right"
+        className=" -right-20 md:-right-24 pointer-events-none absolute md:-bottom-8 origin-bottom-right"
         style={{ writingMode: "vertical-rl" }}
       >
-        <span className="select-none font-bold text-[7rem] tracking-tighter sm:text-[8rem] md:text-[10rem] lg:text-[10rem] text-white/10">
+        <span className="select-none font-bold text-[7rem] tracking-tighter sm:text-[8rem] md:text-[10rem] lg:text-[10rem] text-white/5">
           SuperteamNG
         </span>
       </div>
       <div
-        className="-left-24 pointer-events-none absolute -bottom-8 origin-bottom-right"
+        className="-left-20 md:-left-24 pointer-events-none absolute md:-bottom-8 origin-bottom-right"
         style={{ writingMode: "vertical-lr" }}
       >
-        <span className="select-none font-bold text-[7rem] tracking-tighter sm:text-[8rem] md:text-[10rem] lg:text-[10rem] text-white/10">
+        <span className="select-none font-bold text-[7rem] tracking-tighter sm:text-[8rem] md:text-[10rem] lg:text-[10rem] text-white/5">
           SuperteamNG
         </span>
       </div>
