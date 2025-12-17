@@ -63,7 +63,7 @@ export const HeroSection = () => {
             </GradientButton>
           </div>
 
-          <div className="flex items-center justify-center gap-8 pt-6 text-sm">
+          <div className="flex md:flex-row flex-col items-center justify-center gap-4 md:gap-8 pt-6 text-sm">
             <div className="flex items-center gap-2">
               <div className="-space-x-3 flex">
                 {[1, 2, 3, 4].map((i) => (
@@ -94,7 +94,7 @@ export const HeroSection = () => {
               </span>
             </div>
 
-            <div className="h-4 w-px bg-white/10"></div>
+            <div className="h-px w-4 md:h-4 md:w-px bg-white/10"/>
 
             <div className="flex items-center gap-1.5">
               <div className="flex">
